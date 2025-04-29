@@ -19,6 +19,13 @@ class ViewController: UIViewController {
         HeightTextField.placeholder = "身長を入力してください"
         WeightTextField.placeholder = "体重を入力してください"
         
+        // ⬇️ ラベルのスタイルを設定
+       BMILabel.textAlignment = .center
+       BMILabel.font = UIFont.systemFont(ofSize: 24, weight: .bold)
+       BMILabel.textColor = .white
+       BMILabel.backgroundColor = UIColor.systemTeal
+       BMILabel.layer.cornerRadius = 12
+       BMILabel.layer.masksToBounds = true
     }
     
     
